@@ -1,0 +1,185 @@
+
+/* MAIN BACKGROUND */
+body {
+    background-color: #0e1117;
+}
+
+/* SIDEBAR */
+section[data-testid="stSidebar"] {
+    background: #111827;
+    border-right: 1px solid #2d3748;
+}
+
+/* HEADINGS */
+h1, h2, h3 {
+    color: #ffffff;
+}
+
+/* CARDS */
+.block-container {
+    padding-top: 2rem;
+}
+
+/* METRIC BOX */
+[data-testid="metric-container"] {
+    background: #1f2937;
+    border-radius: 12px;
+    padding: 15px;
+    border: 1px solid #374151;
+}
+
+/* BUTTON STYLE */
+.stButton>button {
+    background: linear-gradient(90deg,#6366f1,#8b5cf6);
+    color: white;
+    border-radius: 8px;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.stButton>button:hover {
+    transform: scale(1.03);
+}
+
+/* FILE UPLOADER */
+[data-testid="stFileUploader"] {
+    background: #1f2937;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* TEXT AREA */
+textarea {
+    background: #1f2937 !important;
+    color: white !important;
+}
+
+/* TABS */
+.stTabs [role="tab"] {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+/* SKILL TAGS */
+.skill-tag {
+    display: inline-block;
+    background: #2563eb;
+    color: white;
+    padding: 6px 12px;
+    margin: 4px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* MISSING SKILL TAG */
+.missing-tag {
+    display: inline-block;
+    background: #ef4444;
+    color: white;
+    padding: 6px 12px;
+    margin: 4px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+
+
+/* ========================= */
+/* SEARCH BUTTON */
+/* ========================= */
+
+.stButton button{
+    background:#ff8c2a;
+    color:white;
+    font-weight:600;
+    border-radius:8px;
+    height:45px;
+    width:100%;
+}
+
+.stButton button:hover{
+    background:#ff7a00;
+}
+
+/* ========================= */
+/* JOB CARD */
+/* ========================= */
+
+.job-card{
+    background:#1f2937;
+    padding:20px;
+    border-radius:10px;
+    margin-bottom:15px;
+    border:1px solid #374151;
+}
+
+.job-card:hover{
+    border:1px solid #3b82f6;
+}
+
+/* 🔥 MAIN CARD (Job Details) */
+.stMarkdown h3 {
+    background: linear-gradient(135deg, #1f2937, #111827);
+    padding: 20px;
+    border-radius: 15px;
+    color: #fff;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+}
+
+/* 🔥 COMPANY TEXT */
+.stMarkdown + div {
+    font-size: 16px;
+    color: #9ca3af;
+    margin-bottom: 10px;
+}
+
+/* 🔥 METRIC CARDS */
+[data-testid="stMetric"] {
+    background: linear-gradient(135deg, #111827, #1f2937);
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255,0.1);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+
+/* 🔥 APPLY BUTTON */
+.stButton button, .stLinkButton a {
+    background: linear-gradient(135deg, #f97316, #fb923c);
+    color: white !important;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.stButton button:hover, .stLinkButton a:hover {
+    transform: scale(1.05);
+    background: linear-gradient(135deg, #ea580c, #f97316);
+}
+
+/* 🔥 EXPANDER (JD BOX) */
+.streamlit-expanderHeader {
+    background: #111827;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+/* 🔥 TEXT AREA */
+textarea {
+    background-color: #0f172a !important;
+    color: #e5e7eb !important;
+    border-radius: 10px !important;
+    border: 1px solid #374151 !important;
+}
+
+/* 🔥 TABLE */
+[data-testid="stDataFrame"] {
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid #374151;
+}
